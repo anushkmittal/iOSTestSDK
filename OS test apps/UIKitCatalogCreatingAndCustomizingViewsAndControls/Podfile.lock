@@ -1,0 +1,16 @@
+PODS:
+  - AnushkTestSDK (1.1)
+
+DEPENDENCIES:
+  - AnushkTestSDK (from `../../AnushkTestSDK`)
+
+EXTERNAL SOURCES:
+  AnushkTestSDK:
+    :path: "../../AnushkTestSDK"
+
+SPEC CHECKSUMS:
+  AnushkTestSDK: fa35ad86861c12dae2deadaf07916934ae4ebf81
+
+PODFILE CHECKSUM: 9982f1c982da8dcee967cd4d39bd998a88a46fd7
+
+COCOAPODS: 1.9.1

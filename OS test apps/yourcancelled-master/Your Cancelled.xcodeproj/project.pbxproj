@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B11C6DE23F3B4E2000A150C /* waiting.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BBD5DA623F3AB690010E9EB /* waiting.gif */; };
+		2B5D1C7624901D0F0067349C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D1C7524901D0E0067349C /* SceneDelegate.swift */; };
+		2B5D1C7E2490364E0067349C /* Your_Cancelled_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D1C7D2490364E0067349C /* Your_Cancelled_UITests.swift */; };
+		2B5D1C8824903BBD0067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591739407.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D1C8724903BBD0067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591739407.swift */; };
+		2B5D1C8A24903C630067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591739577.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D1C8924903C630067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591739577.swift */; };
+		2B5D1C8C24903FC70067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591740451.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D1C8B24903FC70067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591740451.swift */; };
+		2B5D1C8E249040880067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591740625.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D1C8D249040870067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591740625.swift */; };
+		2B5D1C90249045D70067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591741458.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D1C8F249045D70067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591741458.swift */; };
+		2B64FC1923EB4A5F001CD226 /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2BE7D4282410474800B76C43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE7D4152410474800B76C43 /* ViewController.swift */; };
+		2BE7D4292410474800B76C43 /* EditPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE7D4162410474800B76C43 /* EditPlanViewController.swift */; };
+		2BE7D42A2410474800B76C43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE7D4182410474800B76C43 /* Assets.xcassets */; };
+		2BE7D42B2410474800B76C43 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE7D4192410474800B76C43 /* TableViewCell.swift */; };
+		2BE7D42C2410474800B76C43 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE7D41A2410474800B76C43 /* User.swift */; };
+		2BE7D42D2410474800B76C43 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BE7D41C2410474800B76C43 /* GoogleService-Info.plist */; };
+		2BE7D42E2410474800B76C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE7D41D2410474800B76C43 /* LaunchScreen.storyboard */; };
+		2BE7D42F2410474800B76C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE7D41F2410474800B76C43 /* Main.storyboard */; };
+		2BE7D4302410474800B76C43 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE7D4212410474800B76C43 /* extensions.swift */; };
+		2BE7D4312410474800B76C43 /* NewPlanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE7D4222410474800B76C43 /* NewPlanController.swift */; };
+		2BE7D4322410474800B76C43 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE7D4232410474800B76C43 /* TableViewController.swift */; };
+		2BE7D4332410474800B76C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE7D4242410474800B76C43 /* AppDelegate.swift */; };
+		2BE7D4342410474800B76C43 /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE7D4252410474800B76C43 /* Plan.swift */; };
+		2BE7D43E241060FD00B76C43 /* cr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE7D43D241060FD00B76C43 /* cr.swift */; };
+		F8B5C6F8D15ED6E067CF68F5 /* Pods_Your_Cancelled.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E54FDBBB4C35955879A843FB /* Pods_Your_Cancelled.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B5D1C802490364E0067349C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BEAF92923EA2FD200E3BA23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BEAF93023EA2FD200E3BA23;
+			remoteInfo = "Your Cancelled";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B64FC1A23EB4A5F001CD226 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2B64FC1923EB4A5F001CD226 /* (null) in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B36026F23EDFD4F00F1DE05 /* Toaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Toaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B374EAF23EB654A009A7A12 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B374EB223EB65FC009A7A12 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5D1C7524901D0E0067349C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B5D1C7B2490364E0067349C /* Your Cancelled.UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Your Cancelled.UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5D1C7D2490364E0067349C /* Your_Cancelled_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Your_Cancelled_UITests.swift; sourceTree = "<group>"; };
+		2B5D1C7F2490364E0067349C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5D1C8724903BBD0067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591739407.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AnushkTestSDK-com.memeois.yourcancelled-1591739407.swift"; path = "../../../Results/com.memeois.yourcancelled/AnushkTestSDK-com.memeois.yourcancelled-1591739407.swift"; sourceTree = "<group>"; };
+		2B5D1C8924903C630067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591739577.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AnushkTestSDK-com.memeois.yourcancelled-1591739577.swift"; path = "../../../Results/com.memeois.yourcancelled/AnushkTestSDK-com.memeois.yourcancelled-1591739577.swift"; sourceTree = "<group>"; };
+		2B5D1C8B24903FC70067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591740451.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AnushkTestSDK-com.memeois.yourcancelled-1591740451.swift"; path = "../../../Encoder Web Server/AnushkTestSDK-com.memeois.yourcancelled-1591740451.swift"; sourceTree = "<group>"; };
+		2B5D1C8D249040870067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591740625.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AnushkTestSDK-com.memeois.yourcancelled-1591740625.swift"; path = "../../../Encoder Web Server/AnushkTestSDK-com.memeois.yourcancelled-1591740625.swift"; sourceTree = "<group>"; };
+		2B5D1C8F249045D70067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591741458.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AnushkTestSDK-com.memeois.yourcancelled-1591741458.swift"; path = "../../../Encoder Web Server/AnushkTestSDK-com.memeois.yourcancelled-1591741458.swift"; sourceTree = "<group>"; };
+		2BBD5DA623F3AB690010E9EB /* waiting.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = waiting.gif; path = your_cancelled_media/waiting.gif; sourceTree = SOURCE_ROOT; };
+		2BE7D4152410474800B76C43 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2BE7D4162410474800B76C43 /* EditPlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPlanViewController.swift; sourceTree = "<group>"; };
+		2BE7D4172410474800B76C43 /* You're Cancelled..entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "You're Cancelled..entitlements"; sourceTree = "<group>"; };
+		2BE7D4182410474800B76C43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BE7D4192410474800B76C43 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		2BE7D41A2410474800B76C43 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2BE7D41C2410474800B76C43 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2BE7D41E2410474800B76C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BE7D4202410474800B76C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BE7D4212410474800B76C43 /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		2BE7D4222410474800B76C43 /* NewPlanController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPlanController.swift; sourceTree = "<group>"; };
+		2BE7D4232410474800B76C43 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2BE7D4242410474800B76C43 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BE7D4252410474800B76C43 /* Plan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		2BE7D4262410474800B76C43 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE7D43B2410600600B76C43 /* CryptoTokenKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoTokenKit.framework; path = System/Library/Frameworks/CryptoTokenKit.framework; sourceTree = SDKROOT; };
+		2BE7D43D241060FD00B76C43 /* cr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cr.swift; sourceTree = "<group>"; };
+		2BEAF93123EA2FD200E3BA23 /* Your Cancelled..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Your Cancelled..app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB38FEEA06EAE7438101871 /* Pods-Your Cancelled.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Your Cancelled.release.xcconfig"; path = "Target Support Files/Pods-Your Cancelled/Pods-Your Cancelled.release.xcconfig"; sourceTree = "<group>"; };
+		A65DE80D601DA61F3F55122B /* Pods-Your Cancelled.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Your Cancelled.debug.xcconfig"; path = "Target Support Files/Pods-Your Cancelled/Pods-Your Cancelled.debug.xcconfig"; sourceTree = "<group>"; };
+		E54FDBBB4C35955879A843FB /* Pods_Your_Cancelled.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Your_Cancelled.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B5D1C782490364E0067349C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BEAF92E23EA2FD200E3BA23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B5C6F8D15ED6E067CF68F5 /* Pods_Your_Cancelled.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B5D1C7C2490364E0067349C /* Your Cancelled.UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B5D1C7D2490364E0067349C /* Your_Cancelled_UITests.swift */,
+				2B5D1C8724903BBD0067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591739407.swift */,
+				2B5D1C8924903C630067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591739577.swift */,
+				2B5D1C8B24903FC70067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591740451.swift */,
+				2B5D1C8D249040870067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591740625.swift */,
+				2B5D1C8F249045D70067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591741458.swift */,
+				2B5D1C7F2490364E0067349C /* Info.plist */,
+			);
+			path = "Your Cancelled.UITests";
+			sourceTree = "<group>";
+		};
+		2BE7D4142410474700B76C43 /* yourcancelled */ = {
+			isa = PBXGroup;
+			children = (
+				2BBD5DA623F3AB690010E9EB /* waiting.gif */,
+				2BE7D4152410474800B76C43 /* ViewController.swift */,
+				2BE7D4162410474800B76C43 /* EditPlanViewController.swift */,
+				2BE7D4172410474800B76C43 /* You're Cancelled..entitlements */,
+				2BE7D4182410474800B76C43 /* Assets.xcassets */,
+				2BE7D4192410474800B76C43 /* TableViewCell.swift */,
+				2BE7D41A2410474800B76C43 /* User.swift */,
+				2BE7D41B2410474800B76C43 /* models */,
+				2BE7D41C2410474800B76C43 /* GoogleService-Info.plist */,
+				2BE7D41D2410474800B76C43 /* LaunchScreen.storyboard */,
+				2BE7D41F2410474800B76C43 /* Main.storyboard */,
+				2BE7D4212410474800B76C43 /* extensions.swift */,
+				2BE7D4222410474800B76C43 /* NewPlanController.swift */,
+				2BE7D4232410474800B76C43 /* TableViewController.swift */,
+				2BE7D4242410474800B76C43 /* AppDelegate.swift */,
+				2B5D1C7524901D0E0067349C /* SceneDelegate.swift */,
+				2BE7D4252410474800B76C43 /* Plan.swift */,
+				2BE7D4262410474800B76C43 /* Info.plist */,
+				2BE7D43D241060FD00B76C43 /* cr.swift */,
+			);
+			path = yourcancelled;
+			sourceTree = "<group>";
+		};
+		2BE7D41B2410474800B76C43 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		2BEAF92823EA2FD200E3BA23 = {
+			isa = PBXGroup;
+			children = (
+				2BE7D4142410474700B76C43 /* yourcancelled */,
+				2B5D1C7C2490364E0067349C /* Your Cancelled.UITests */,
+				2BEAF93223EA2FD200E3BA23 /* Products */,
+				2BEAF94B23EA37AB00E3BA23 /* Frameworks */,
+				2E6589048328D7DF803A1A1A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2BEAF93223EA2FD200E3BA23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BEAF93123EA2FD200E3BA23 /* Your Cancelled..app */,
+				2B5D1C7B2490364E0067349C /* Your Cancelled.UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BEAF94B23EA37AB00E3BA23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BE7D43B2410600600B76C43 /* CryptoTokenKit.framework */,
+				2B36026F23EDFD4F00F1DE05 /* Toaster.framework */,
+				2B374EB223EB65FC009A7A12 /* GoogleUtilities.framework */,
+				2B374EAF23EB654A009A7A12 /* GoogleUtilities.framework */,
+				E54FDBBB4C35955879A843FB /* Pods_Your_Cancelled.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E6589048328D7DF803A1A1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A65DE80D601DA61F3F55122B /* Pods-Your Cancelled.debug.xcconfig */,
+				4EB38FEEA06EAE7438101871 /* Pods-Your Cancelled.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B5D1C7A2490364E0067349C /* Your Cancelled.UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5D1C822490364E0067349C /* Build configuration list for PBXNativeTarget "Your Cancelled.UITests" */;
+			buildPhases = (
+				2B5D1C772490364E0067349C /* Sources */,
+				2B5D1C782490364E0067349C /* Frameworks */,
+				2B5D1C792490364E0067349C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B5D1C812490364E0067349C /* PBXTargetDependency */,
+			);
+			name = "Your Cancelled.UITests";
+			productName = "Your Cancelled.UITests";
+			productReference = 2B5D1C7B2490364E0067349C /* Your Cancelled.UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2BEAF93023EA2FD200E3BA23 /* Your Cancelled */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BEAF94523EA2FD300E3BA23 /* Build configuration list for PBXNativeTarget "Your Cancelled" */;
+			buildPhases = (
+				8EC38F076B32C87D26F77B24 /* [CP] Check Pods Manifest.lock */,
+				2BEAF92D23EA2FD200E3BA23 /* Sources */,
+				2BEAF92F23EA2FD200E3BA23 /* Resources */,
+				2B64FC1A23EB4A5F001CD226 /* Embed Frameworks */,
+				2BEAF92E23EA2FD200E3BA23 /* Frameworks */,
+				99517A463E8BFA21C1C5DD40 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Your Cancelled";
+			productName = test;
+			productReference = 2BEAF93123EA2FD200E3BA23 /* Your Cancelled..app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BEAF92923EA2FD200E3BA23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Memeois, Inc.";
+				TargetAttributes = {
+					2B5D1C7A2490364E0067349C = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 2BEAF93023EA2FD200E3BA23;
+					};
+					2BEAF93023EA2FD200E3BA23 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2BEAF92C23EA2FD200E3BA23 /* Build configuration list for PBXProject "Your Cancelled" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BEAF92823EA2FD200E3BA23;
+			productRefGroup = 2BEAF93223EA2FD200E3BA23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BEAF93023EA2FD200E3BA23 /* Your Cancelled */,
+				2B5D1C7A2490364E0067349C /* Your Cancelled.UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B5D1C792490364E0067349C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BEAF92F23EA2FD200E3BA23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE7D42A2410474800B76C43 /* Assets.xcassets in Resources */,
+				2BE7D42F2410474800B76C43 /* Main.storyboard in Resources */,
+				2BE7D42E2410474800B76C43 /* LaunchScreen.storyboard in Resources */,
+				2B11C6DE23F3B4E2000A150C /* waiting.gif in Resources */,
+				2BE7D42D2410474800B76C43 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EC38F076B32C87D26F77B24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Your Cancelled-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99517A463E8BFA21C1C5DD40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Your Cancelled/Pods-Your Cancelled-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Your Cancelled/Pods-Your Cancelled-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Your Cancelled/Pods-Your Cancelled-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B5D1C772490364E0067349C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5D1C90249045D70067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591741458.swift in Sources */,
+				2B5D1C7E2490364E0067349C /* Your_Cancelled_UITests.swift in Sources */,
+				2B5D1C8824903BBD0067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591739407.swift in Sources */,
+				2B5D1C8C24903FC70067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591740451.swift in Sources */,
+				2B5D1C8A24903C630067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591739577.swift in Sources */,
+				2B5D1C8E249040880067349C /* AnushkTestSDK-com.memeois.yourcancelled-1591740625.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BEAF92D23EA2FD200E3BA23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE7D4332410474800B76C43 /* AppDelegate.swift in Sources */,
+				2BE7D4302410474800B76C43 /* extensions.swift in Sources */,
+				2BE7D4322410474800B76C43 /* TableViewController.swift in Sources */,
+				2BE7D42C2410474800B76C43 /* User.swift in Sources */,
+				2BE7D42B2410474800B76C43 /* TableViewCell.swift in Sources */,
+				2BE7D4342410474800B76C43 /* Plan.swift in Sources */,
+				2BE7D4312410474800B76C43 /* NewPlanController.swift in Sources */,
+				2B5D1C7624901D0F0067349C /* SceneDelegate.swift in Sources */,
+				2BE7D4282410474800B76C43 /* ViewController.swift in Sources */,
+				2BE7D4292410474800B76C43 /* EditPlanViewController.swift in Sources */,
+				2BE7D43E241060FD00B76C43 /* cr.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B5D1C812490364E0067349C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BEAF93023EA2FD200E3BA23 /* Your Cancelled */;
+			targetProxy = 2B5D1C802490364E0067349C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BE7D41D2410474800B76C43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BE7D41E2410474800B76C43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2BE7D41F2410474800B76C43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BE7D4202410474800B76C43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B5D1C832490364E0067349C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA2GUFBZMC;
+				INFOPLIST_FILE = "Your Cancelled.UITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.memeois.Your-Cancelled-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Your Cancelled";
+			};
+			name = Debug;
+		};
+		2B5D1C842490364E0067349C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA2GUFBZMC;
+				INFOPLIST_FILE = "Your Cancelled.UITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.memeois.Your-Cancelled-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Your Cancelled";
+			};
+			name = Release;
+		};
+		2BEAF94323EA2FD300E3BA23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BEAF94423EA2FD300E3BA23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BEAF94623EA2FD300E3BA23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65DE80D601DA61F3F55122B /* Pods-Your Cancelled.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "yourcancelled/You're Cancelled..entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = MA2GUFBZMC;
+				INFOPLIST_FILE = yourcancelled/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"FIRAnalyticsConnector\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseAuth\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseFirestore\"",
+					"-framework",
+					"\"FirebaseFirestoreSwift\"",
+					"-framework",
+					"\"FirebaseInstallations\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"FirebaseMessaging\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleDataTransport\"",
+					"-framework",
+					"\"GoogleDataTransportCCTSupport\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SAConfettiView\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SwiftyGif\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"Toast_Swift\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"absl\"",
+					"-framework",
+					"\"grpc\"",
+					"-framework",
+					"\"grpcpp\"",
+					"-framework",
+					"\"leveldb\"",
+					"-framework",
+					"\"nanopb\"",
+					"-framework",
+					"\"openssl_grpc\"",
+					"-framework",
+					"\"protobuf\"",
+					"-weak_framework",
+					"\"UserNotifications\"",
+					"-weak_framework",
+					"\"CryptoKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.memeois.yourcancelled;
+				PRODUCT_NAME = "Your Cancelled.";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		2BEAF94723EA2FD300E3BA23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EB38FEEA06EAE7438101871 /* Pods-Your Cancelled.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "yourcancelled/You're Cancelled..entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = MA2GUFBZMC;
+				INFOPLIST_FILE = yourcancelled/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"FIRAnalyticsConnector\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseAuth\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseFirestore\"",
+					"-framework",
+					"\"FirebaseFirestoreSwift\"",
+					"-framework",
+					"\"FirebaseInstallations\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"FirebaseMessaging\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleDataTransport\"",
+					"-framework",
+					"\"GoogleDataTransportCCTSupport\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SAConfettiView\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SwiftyGif\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"Toast_Swift\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"absl\"",
+					"-framework",
+					"\"grpc\"",
+					"-framework",
+					"\"grpcpp\"",
+					"-framework",
+					"\"leveldb\"",
+					"-framework",
+					"\"nanopb\"",
+					"-framework",
+					"\"openssl_grpc\"",
+					"-framework",
+					"\"protobuf\"",
+					"-weak_framework",
+					"\"UserNotifications\"",
+					"-weak_framework",
+					"\"CryptoKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.memeois.yourcancelled;
+				PRODUCT_NAME = "Your Cancelled.";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B5D1C822490364E0067349C /* Build configuration list for PBXNativeTarget "Your Cancelled.UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5D1C832490364E0067349C /* Debug */,
+				2B5D1C842490364E0067349C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BEAF92C23EA2FD200E3BA23 /* Build configuration list for PBXProject "Your Cancelled" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BEAF94323EA2FD300E3BA23 /* Debug */,
+				2BEAF94423EA2FD300E3BA23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BEAF94523EA2FD300E3BA23 /* Build configuration list for PBXNativeTarget "Your Cancelled" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BEAF94623EA2FD300E3BA23 /* Debug */,
+				2BEAF94723EA2FD300E3BA23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BEAF92923EA2FD200E3BA23 /* Project object */;
+}

@@ -1,0 +1,8 @@
+app_identifier("com.memeois.yourcancelled") # The bundle identifier of your app
+apple_id("anushk@memeois.com") # Your Apple email address
+
+itc_team_id("118525356") # App Store Connect Team ID
+team_id("MA2GUFBZMC") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

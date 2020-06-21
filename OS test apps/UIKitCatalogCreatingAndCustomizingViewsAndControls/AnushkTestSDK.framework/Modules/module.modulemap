@@ -1,0 +1,11 @@
+framework module AnushkTestSDK {
+  umbrella header "AnushkTestSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AnushkTestSDK.Swift {
+    header "AnushkTestSDK-Swift.h"
+    requires objc
+}

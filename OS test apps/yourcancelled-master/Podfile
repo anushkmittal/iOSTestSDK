@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+
+target 'Your Cancelled' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Your Cancelled
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth', '~> 6.13'
+  pod 'Firebase/Firestore'
+  # Optionally, include the Swift extensions if you're using Swift.
+  pod 'FirebaseFirestoreSwift'
+  pod 'SwiftyGif'
+  pod 'SAConfettiView'
+  pod 'Firebase/Messaging'
+  #pod 'SwiftMessages'
+  pod 'Toast-Swift'
+  pod 'AnushkTestSDK', :path => '../../AnushkTestSDK', :configurations => ['Debug']
+
+end

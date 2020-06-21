@@ -1,0 +1,23 @@
+PODS:
+  - AnushkTestSDK (1.1)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - AnushkTestSDK (from `../../AnushkTestSDK`)
+  - SnapKit (~> 4.0.0)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  AnushkTestSDK:
+    :path: "../../AnushkTestSDK"
+
+SPEC CHECKSUMS:
+  AnushkTestSDK: fa35ad86861c12dae2deadaf07916934ae4ebf81
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: e4ae970400d9414a694478fd0db05358c4a0263c
+
+COCOAPODS: 1.9.1
